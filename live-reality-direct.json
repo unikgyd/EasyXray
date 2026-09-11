@@ -1,0 +1,111 @@
+{
+  "Id": "8a903fae-63d4-4357-b10d-7d358e4fc42d",
+  "Name": "Live Ubuntu validation",
+  "Inbounds": [
+    {
+      "$type": "reality",
+      "ListenAddress": "0.0.0.0",
+      "Users": [
+        {
+          "Id": "c47b5091-8ec5-435c-bcf5-931323c9fd1b",
+          "Name": "live-test",
+          "Flow": "xtls-rprx-vision"
+        }
+      ],
+      "Target": "www.cloudflare.com:443",
+      "ServerNames": [
+        "www.cloudflare.com"
+      ],
+      "PrivateKey": "iJt4v371Crug4Pki4oJCKSWAsDIOPz-m0SBIYals0Uc",
+      "PublicKey": "tMFHI2Y567Vsz5g4YFwSYzXSMs5mJtgvAOGLupqmBU8",
+      "ShortIds": [
+        "01234567"
+      ],
+      "Id": "85dd9029-7e8a-4ed2-b754-d1b5b76d8fb0",
+      "Name": "REALITY live test",
+      "Tag": "reality-443",
+      "ListenPort": 443,
+      "Enabled": true
+    },
+    {
+      "$type": "hysteria2",
+      "ListenAddress": "0.0.0.0",
+      "Users": [
+        {
+          "Name": "live-test",
+          "Authentication": "hy2-live-auth"
+        }
+      ],
+      "TlsCertificatePath": "/usr/local/etc/xray/certs/9e8e109464fe4cc4861e6e28c4f76573.crt",
+      "TlsPrivateKeyPath": "/usr/local/etc/xray/certs/9e8e109464fe4cc4861e6e28c4f76573.key",
+      "TlsCertificatePem": null,
+      "TlsPrivateKeyPem": null,
+      "TlsCertificateLocalPath": null,
+      "TlsPrivateKeyLocalPath": null,
+      "Obfuscation": "hy2-obfuscation",
+      "UdpIdleTimeoutSeconds": 60,
+      "Id": "9e8e1094-64fe-4cc4-861e-6e28c4f76573",
+      "Name": "Hysteria2 live test",
+      "Tag": "hy2-8443",
+      "ListenPort": 8443,
+      "Enabled": true
+    }
+  ],
+  "Outbounds": [
+    {
+      "$type": "wireguard",
+      "EndpointHost": "47.80.68.0",
+      "EndpointPort": 51820,
+      "PrivateKey": "UCSyF0rSRTF6ynMZhFYhhhk\u002BJte6iItnCqkes39h6VI=",
+      "PeerPublicKey": "qZGXMY3WuKLqgT9NIMdWwzeSudqYX0Q/fFSNn38e0E8=",
+      "PresharedKey": null,
+      "LocalAddresses": [
+        "10.66.66.2/32"
+      ],
+      "AllowedIPs": [
+        "0.0.0.0/0",
+        "::/0"
+      ],
+      "Mtu": null,
+      "PersistentKeepalive": 25,
+      "Id": "f206dfc4-256f-49ee-a67c-10c70a4f754d",
+      "Name": "WireGuard live exit",
+      "Tag": "wg-live",
+      "Enabled": true
+    }
+  ],
+  "Bindings": [
+    {
+      "Id": "e06e1e45-cfb6-4654-99f1-6c662fdb9a76",
+      "InboundId": "85dd9029-7e8a-4ed2-b754-d1b5b76d8fb0",
+      "Destination": {
+        "$type": "outbound",
+        "OutboundId": "f206dfc4-256f-49ee-a67c-10c70a4f754d"
+      },
+      "Enabled": true
+    },
+    {
+      "Id": "6dc344d6-cf13-4dfe-a3cc-e443889c29fe",
+      "InboundId": "9e8e1094-64fe-4cc4-861e-6e28c4f76573",
+      "Destination": {
+        "$type": "direct"
+      },
+      "Enabled": true
+    }
+  ],
+  "BlockRules": [
+    {
+      "Id": "3e76b32a-7b2a-4d80-81a3-1334c8c3141c",
+      "Name": "Block UDP STUN",
+      "Enabled": true,
+      "InboundId": null,
+      "Network": 1,
+      "Ports": [
+        {
+          "Start": 3478,
+          "End": 3478
+        }
+      ]
+    }
+  ]
+}

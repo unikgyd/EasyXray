@@ -1,0 +1,124 @@
+{
+  "id": 2,
+  "userId": 0,
+  "up": 35844685,
+  "down": 232816987,
+  "total": 0,
+  "remark": "ph-relay",
+  "enable": true,
+  "expiryTime": 0,
+  "trafficReset": "never",
+  "trafficResetDay": 1,
+  "lastTrafficResetTime": 0,
+  "listen": "",
+  "port": 443,
+  "protocol": "hysteria",
+  "settings": {
+    "clients": [
+      {
+        "auth": "eb04f8tfvhs8w5l8",
+        "comment": "",
+        "created_at": 1788594160484,
+        "email": "ph-relay",
+        "enable": true,
+        "expiryTime": 0,
+        "id": "c006b67c-e736-43cf-8aa4-207e6cf2e74e",
+        "limitIp": 0,
+        "password": "u431lm6374eft7xy",
+        "reset": 0,
+        "security": "auto",
+        "subId": "ncp8v779nqxvr12x",
+        "tgId": 0,
+        "totalGB": 0,
+        "updated_at": 1788594160000
+      }
+    ],
+    "version": 2
+  },
+  "streamSettings": {
+    "network": "hysteria",
+    "hysteriaSettings": {
+      "version": 2,
+      "udpIdleTimeout": 60,
+      "masquerade": {
+        "type": "",
+        "dir": "",
+        "url": "",
+        "rewriteHost": false,
+        "insecure": false,
+        "content": "",
+        "headers": {},
+        "statusCode": 0
+      }
+    },
+    "security": "tls",
+    "tlsSettings": {
+      "serverName": "yoodar.cc.cd",
+      "minVersion": "1.2",
+      "maxVersion": "1.3",
+      "cipherSuites": "",
+      "rejectUnknownSni": false,
+      "disableSystemRoot": false,
+      "enableSessionResumption": false,
+      "certificates": [
+        {
+          "certificateFile": "/root/cert/yoodar.cc.cd/fullchain.pem",
+          "keyFile": "/root/cert/yoodar.cc.cd/privkey.pem",
+          "ocspStapling": 0,
+          "oneTimeLoading": false,
+          "usage": "encipherment",
+          "buildChain": false
+        }
+      ],
+      "alpn": [
+        "h3"
+      ],
+      "echServerKeys": "ACD5KoFKu2fR0VODfr/i0GfwESlu5bRXt4/OM9EZBmxErQBf/g0AWwAAIAAgapthmS88XSGlmb3YVPFOBytMzg0xp8Yi/TtfmF8Pgw8AJAABAAEAAQACAAEAAwACAAEAAgACAAIAAwADAAEAAwACAAMAAwAMeW9vZGFyLmNjLmNkAAA=",
+      "curvePreferences": [
+        "X25519MLKEM768"
+      ],
+      "settings": {
+        "fingerprint": "safari",
+        "echConfigList": "AF/+DQBbAAAgACBqm2GZLzxdIaWZvdhU8U4HK0zODTGnxiL9O1+YXw+DDwAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAAx5b29kYXIuY2MuY2QAAA==",
+        "pinnedPeerCertSha256": [],
+        "verifyPeerCertByName": ""
+      }
+    },
+    "finalmask": {
+      "udp": [
+        {
+          "type": "salamander",
+          "settings": {
+            "password": "k7fj7ya2ir9wzoss"
+          }
+        }
+      ]
+    }
+  },
+  "tag": "in-443-udp",
+  "sniffing": {
+    "enabled": false
+  },
+  "clientStats": [
+    {
+      "id": 5,
+      "inboundId": 2,
+      "enable": true,
+      "email": "ph-relay",
+      "uuid": "c006b67c-e736-43cf-8aa4-207e6cf2e74e",
+      "subId": "ncp8v779nqxvr12x",
+      "up": 33887315,
+      "down": 229582086,
+      "expiryTime": 0,
+      "total": 0,
+      "reset": 0,
+      "lastOnline": 1789011434009
+    }
+  ],
+  "nodeId": null,
+  "shareAddrStrategy": "listen",
+  "shareAddr": "",
+  "subSortIndex": 1,
+  "originNodeGuid": "",
+  "fallbackParent": null
+}

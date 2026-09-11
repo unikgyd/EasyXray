@@ -1,0 +1,106 @@
+{
+  "id": 1,
+  "userId": 0,
+  "up": 36942192491,
+  "down": 207852936963,
+  "total": 0,
+  "remark": "sg",
+  "enable": true,
+  "expiryTime": 0,
+  "trafficReset": "never",
+  "trafficResetDay": 1,
+  "lastTrafficResetTime": 0,
+  "listen": "",
+  "port": 443,
+  "protocol": "vless",
+  "settings": {
+    "clients": [
+      {
+        "auth": "tnw7qgqeprmmpu19",
+        "comment": "",
+        "created_at": 1786435444794,
+        "email": "private",
+        "enable": true,
+        "expiryTime": 0,
+        "flow": "xtls-rprx-vision",
+        "id": "f72f962c-1efd-4176-8a72-8d4ce68ffa59",
+        "limitIp": 0,
+        "password": "g0phv2o41xngtqkm",
+        "reset": 0,
+        "security": "auto",
+        "subId": "oo2hi453y24womn7",
+        "tgId": 0,
+        "totalGB": 0,
+        "updated_at": 1786695846000
+      }
+    ],
+    "decryption": "mlkem768x25519plus.native.600s.WAbVEDRPjl5cXoNMCquA6mu__u8iO5ZU-fVsbGB2mG8",
+    "encryption": "mlkem768x25519plus.native.0rtt.nD4dPDDy7YDYXFBnnGi77ZudkMoAhF5sDeqRyYQE8nc"
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "tcpSettings": {
+      "acceptProxyProtocol": false,
+      "header": {
+        "type": "none"
+      }
+    },
+    "security": "reality",
+    "realitySettings": {
+      "show": false,
+      "xver": 0,
+      "target": "dl.google.com:443",
+      "serverNames": [
+        "dl.google.com"
+      ],
+      "privateKey": "GPj8_E79gPC64eiZoVBdCbxy1ACvwmMxbZjHxezoFVM",
+      "minClientVer": "1.0.0",
+      "maxClientVer": "",
+      "maxTimediff": 0,
+      "shortIds": [
+        "1bd298c48b04080c",
+        "cb36cebd",
+        "c3",
+        "22fbb8c6c2c5",
+        "89a7",
+        "5e75f62db1",
+        "d5a351",
+        "de3118a2b3f4b7"
+      ],
+      "mldsa65Seed": "zGWoLc1w3YjPW_gQDHdOibJhhd8hb0VLkZfjTSGZoFI",
+      "settings": {
+        "publicKey": "HAd6u_T8vqjIFBV9A-b56knUQhOQlFV58dAJqD5mnwg",
+        "fingerprint": "chrome",
+        "serverName": "",
+        "spiderX": "/",
+        "mldsa65Verify": "RXcpCTVldrGL04tC9h8YF-QRxNCqlsE4W1pK662lYSOz5Y1Gz_l2Iohh9AW661JzhMqXK31zaKSHoa5jVvcyAtMPGHz51nMALDmLaW18Pp-ezLkb82zvcVtbH9N24EcHm7MeuTyW6gvFnmPYU9owPbXzIR4Ux6X26KBK9UyR1CTYJdCUCpPRk9v2sM5KAQ1j3J1eXIm1ZvcDOi5HkpGGPMHrimwzd0QY5qDvtzPvA_gWRYot2hfXutWQGnbskvVZKjxBjOPp3OYfRZiKcFXmuBDslcYeuY8hg43Oxf8Z0mCTxCpF7mK88CQ10AiSEx8eug2BZyREk8EbCQHKc0D7ad5SIwxdLk1EbFB0l60b77_1JwYJjXO-zYlDluf_IDPAgojFQH2-tiW2j3_giGs6sMHfy5wViC0Vh4chJ86xIdNDece_lg717B5dX23i-aI8O6BqkVoALI8qO6jeEiAvuWNZ7Xf6w8x84ybie-3kCUFsTU0p-V1HA7R-GEUvKAmmmPAsg-0nBteYARsOvX5yd6XwHfQTAIfTNVkTEf7Jdo3K-PsIrXAzgujbjsCbml8R5Tj0K2NpOCAcRerYheOvyTAOctfmVQy70LTeN2k0FInc4_siYKofPa50gP4CuRtrjwHUs1zKTkuiCjCZNgJ8Z8a1vU54TB4SGi_G_PjakzLG3rsbakSF7ygDFeDK5MR7A5zVALL1bu7Cl9drz4WmLCYcVuetmwUGbM95ZfZJeYA9ezQhNDp9LxQSLRvDLluLNsTtCYPSMbMke1Q6Vs3QYBzXI5b2axA_inNFo0meyNcEHk5pn6utTclV2DWl3T-T4PytLsE1a9O9QXIgZvN7Ay5r22HjEiNXilxBh7eRwCrvrgOzGtoh5Gp-eIrwn_7fPy3TD1Jcz3OX0XCgKRG-2yuml0D4Aw2XqAF9gYvoVBbKzbsxYaRGx8z0JUfjl6aOIhXY-cwSA2rcm3-JZA89FvjTqnRyzuhdMIoXipU9DJFaor5-5mfcfceNk_Us8KhCVhNm4CisjL_YvtGymxZWdm3yVLs-YWOcL_0yZuxsBeM2CtGOxluI5FjwWoYbDfAKuMhZ6hIrmvDwXY68YClE8YGkBnZQDwIaoq_1LHyjadO_YovdvkIW6vy2XPPf608m9qPFi8DNMHkbsi20PK64PHP5qKu2M1H7yCpannE8QlqqrtqEp-wxAPmGGtKjWsIOhSYrD5okkwfliorkPPiYca92SrCeQ54YJHRSm1288_GchhAQ1iIXr9865MmWebcQB4oGfFZv-c-Rlr8LGbdH4RezxQw2U3FW7VpxrvyjxgRJhcfWNN037ootvPfZmcoSYv4yzl-KDG2ZCP3pv-nH1Scg8G9tyFLOK7w3K0hR8BAPs7Met7poqW8636gHTi3XAoG60UC8zKK7nsTff-h3Q3ElESFYF2-4pyNiRToD-RIeB7pQjBFC6GUFc4JFcmhPklxokHTZMomoffb5NlFvdf-FU5lL6PM8j8JLDhWRww_0Buz4E01n4_L-1JdbV6khK1iUtuH4JVdjqeOxmVL5HNO1B1P7XwMcVpKlQQLYYwY6tzJ5naW-IBUa0Cvc090L_oVpBZaAsKXMVUnmZO6qAiuu5oJygV54s_EtF50Rbc2Y4ModeTN_IWWALWgM3r6VHd3uKxyrmCrkgZxqACFB6mQoSq22rXzPnjMWhNE3oIGh44BJ7VTCvd9dNq5XP83I20c47U9EdHiM6iKkSKWMdcefdIoSHmwHOG80FGj6D-UaoL0uL_Ioi0czXqgMPaVrgoem8gt1TZhVHtjutpkC1MN1dIpkOfP8qu33RTvOzN629mX-cNG3iFPa2_gthQ8oK54KDtIHex38XmC_n8tAe2CJ0XFGkKofem-DLplXMdvGric1to2q2DGsqFjiCV_iZlA7P94AFXUiin5fdgF7tKQWzTHzea9foETdU5RXrZbJzSConVnDgDzu7cYh3i0sFMMm1dEa6IveppDvmIPurnMhyTl9G72N-rwcRqwJwUXLFIE_sbwlzVDGTN33zp09_M6tIbr2as9jcl2mjH9MzhVWElqXjAxY1utPUwq6BhbF99PM9daT5tIKlLUURht4vHTaM43wl8IKEu4qNSjlvjyXEMteSdYOnpgeV2VJsR0BQflTcpDNSfl5Yr6eyXCirq9wS-4WJYDsINEASK25Fz3bCOCLL43EhTJw9sOTcz-Zcv0B4J1gploXnjgLucomiPKg1TPe70QVLsxXChWOcLHBGFsszmAf9f9vyUk4Sv9DHiFj31IKalyrLkUZ2taLXvHs9g-x0XBB3ZAWr0VIcA15EIljWtJlKw9s9PZQxt5_ZuobSdvABiezsDWUYAiMrSJEj8qMnujjadGz8xdIpkG_binMhboPI5uKa4CKbVUPZMsrjqt1bpskNzXGAmyU8OSAsI-EQbYnC0N68-R4tXtp1orsUZOuJkDW_R3CnuZy997_QMzWGWl21n_LXK0OZMO6RYGdCaKjc3X3RUZGvs0d8OP2BX9A-YO7MM61xQyxRqKdkTi41hCe9GhC4UBivot9LHSPdvBw3cqsvXt-fA2bP-3gFkcumtqZvVXfd7I"
+      }
+    }
+  },
+  "tag": "in-443-tcp",
+  "sniffing": {
+    "enabled": false
+  },
+  "clientStats": [
+    {
+      "id": 4,
+      "inboundId": 1,
+      "enable": true,
+      "email": "private",
+      "uuid": "f72f962c-1efd-4176-8a72-8d4ce68ffa59",
+      "subId": "oo2hi453y24womn7",
+      "up": 36294187447,
+      "down": 207359598881,
+      "expiryTime": 0,
+      "total": 0,
+      "reset": 0,
+      "lastOnline": 1789055414002
+    }
+  ],
+  "nodeId": null,
+  "shareAddrStrategy": "listen",
+  "shareAddr": "",
+  "subSortIndex": 1,
+  "originNodeGuid": "",
+  "fallbackParent": null
+}

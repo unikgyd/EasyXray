@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/XrayDeploy.Core/XrayDeploy.Core.csproj" />
+  <Project Path="src/XrayDeploy.Infrastructure/XrayDeploy.Infrastructure.csproj" />
+  <Project Path="src/XrayDeploy.Cli/XrayDeploy.Cli.csproj" />
+  <Project Path="EasyXray/EasyXray.csproj" />
+  <Project Path="tests/XrayDeploy.Tests/XrayDeploy.Tests.csproj" />
+</Solution>
